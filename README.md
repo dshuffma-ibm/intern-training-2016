@@ -185,16 +185,18 @@ Read the links below to understand blockchain and your role.
 
 ***
 #Demos
-Ok you are done with setup! now get experience. 
+Ok you are done with setup! Now lets get experience. 
 Try each demo in order. 
+This is may look like the smallest section but it should take far longer then any other section. 
+Take your time here and ping us with questions/concerns/stuckness. 
 
-1. Run through [learn-chaincode](https://github.com/IBM-Blockchain/learn-chaincode) - quick intro into how to write chaincode
-1. Run through [marbles tutorial 1](https://github.com/IBM-Blockchain/marbles/blob/master/tutorial_part1.md) - very simple asset trading
-1. Run through [marbles tutorial 2](https://github.com/IBM-Blockchain/marbles/blob/master/tutorial_part2.md) - very simple asset trading++
+1. Run through [learn-chaincode](https://github.com/IBM-Blockchain/learn-chaincode) - this is a quick intro into how to write chaincode, protip build the chaincode locally before deploying
+1. Run through [marbles tutorial 1](https://github.com/IBM-Blockchain/marbles/blob/master/tutorial_part1.md) choose the **"Manual Network Setup"** and **"Run Marbles on Local Machine"** - its a very simple asset trading example
+1. Run through [marbles tutorial 2](https://github.com/IBM-Blockchain/marbles/blob/master/tutorial_part2.md) - still a very simple asset tradin example
 
 #Explore the Bluemix IBM Blockchain Service
 The last thing you should see before going off into the wild is the IBM Blockchain Service Dashboard. 
-The various tutorials may have pointed you to this at times, but lets fill in any gaps.
+The various tutorials may have pointed you to this at times, but lets fill in any gaps of what it can do. 
 
 1. First login to [Bluemix](https://console.ng.bluemix.net)
 1. Click the "Catalog" link on the top navigation bar
@@ -232,7 +234,7 @@ The network is all setup. You are now on your blockchain's dashboard.
 	- Both tables will update periodically
 	- The log like icon will open up a static log file for the peer/chaincode.  This is very handy for debugging
 
-1. Deploy Tab - Let’s get some chaincode into this bbb...bbbllockchain. 
+1. Deploy Tab - Let’s get some chaincode into this bbb...bbllockchain. 
 	- On the deploy tab we have chaincode examples. 
 	- Select "Example02" from the drop down and click the giant "Deploy" button
 	- Wait for the dancing rectangles to finish their ceremony. 
@@ -240,7 +242,9 @@ The network is all setup. You are now on your blockchain's dashboard.
 	- Next click the "Query A" button and then "Query B" button and note the values that get printed out
 	- Next click the "Transfer from A to B" button
 	- Finally click the "Query A" and "Query B" buttons to see the new values
-	- That’s it for this tab, if you want play with the other examples or this one some more
+	- Click the "Chaincode" link under the "Links" column for Example02
+		- Explore the chaincode until you find the code responsible for transfering an amount from A to B
+	- That’s it for this tab. Play with the other examples or this one some more.
 	
 1. Blockchain Tab - Now that we have some chaincode deployed go to the "Blockchain" tab
 	- You should see at least 3 blocks and some basic stats about the network
