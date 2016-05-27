@@ -57,7 +57,7 @@ Although it will probably contain your operating system name in the parenthesis.
 
 * Download and install the [Node.js Binaries](https://nodejs.org/en/).
 ![Node Download Page](images/node_js_download.png)
-* After its installed test it by opening a command prompt on your operating system and type `node`.
+* After its installed test it by opening a command prompt on your operating system
 
 * Type node -v.  Node should respond in kind:
 
@@ -128,7 +128,7 @@ Chaincode is written in GoLang. You will be building Go code locally to make sur
 - Download and install GoLang https://golang.org/ 
 
 ## 1.5 IDE
-You are going to need an Editor to develop in.  It you do not have a favorite already then I'd recommend Visual Studio Code.
+You are going to need an editor to develop in.  It you do not have a favorite already then I'd recommend Visual Studio Code.
 - Download and install [Visual Studio Code](https://code.visualstudio.com/)
 - Get the Go extension by:
 	- open VSCode, press and hold "ctrl" + "p"
@@ -136,7 +136,7 @@ You are going to need an Editor to develop in.  It you do not have a favorite al
 
 ##2.0 Test Email
 - Make sure your Lotus Notes works.  This is IBM's everything client.  You will use it for email + instant messaging.
-	- Send a test email to dshuffma@us.ibm.com (David Huffman) with your cell phone number. It’s important to give me a way to reach you even if you are out.  It’s also important to send an email or txt message if there is any reason you cannot come into work today or must head home early.
+	- Send a test email to dshuffma@us.ibm.com with your cell phone number. It’s important to give me a way to reach you even if you are out.  It’s also important to send an email or txt message if there is any reason you cannot come into work today or must head home early.
 
 
 ##2.1 Slack
@@ -161,10 +161,11 @@ You are going to need an Editor to develop in.  It you do not have a favorite al
 
 ***
 #Learn
-First up lets learn about blockchain basics
+First up lets learn about blockchain basics. 
 
 ##Links to reference:
-Below is several links that you should bookmark
+Below is several links that you should bookmark. 
+
 1. [Hyperledger Website](https://www.hyperledger.org/) - Linux Foundation's site
 1. [IBM Blockchain](https://www.ibm.com/blockchain/) - IBM's site
 1. [Glossary](https://github.com/hyperledger/fabric/blob/master/docs/glossary.md?cm_mc_uid=73007780379114621195867&cm_mc_sid_50200000=1464373552) - confused on a term, look it up here
@@ -175,7 +176,8 @@ Below is several links that you should bookmark
 1. [Hyperledger Docs Table of Contents](https://github.com/hyperledger/fabric/tree/master/docs)
 
 ##Links to Read:
-Read the links below to understand blockchain and your role.
+Read the links below to understand blockchain and your role. 
+
 1. [What is blockchain](https://www.ibm.com/blockchain/what_is_blockchain.html)
 2. [What can blockchain do](https://www.ibm.com/blockchain/what_can_blockchain_do_for_you.html)
 3. [Chaincode FAQ](https://github.com/hyperledger/fabric/blob/master/docs/FAQ/chaincode_FAQ.md)
@@ -183,23 +185,25 @@ Read the links below to understand blockchain and your role.
 
 ***
 #Demos
-Ok you are done with setup! now get experience.  Try each demo in order.
+Ok you are done with setup! now get experience. 
+Try each demo in order. 
+
 1. Run through [learn-chaincode](https://github.com/IBM-Blockchain/learn-chaincode) - quick intro into how to write chaincode
 1. Run through [marbles tutorial 1](https://github.com/IBM-Blockchain/marbles/blob/master/tutorial_part1.md) - very simple asset trading
 1. Run through [marbles tutorial 2](https://github.com/IBM-Blockchain/marbles/blob/master/tutorial_part2.md) - very simple asset trading++
 
 #Explore the Bluemix IBM Blockchain Service
-The last thing you should see before going off into the wild is the IBM Blockchain Service Monitor Dashboard. 
+The last thing you should see before going off into the wild is the IBM Blockchain Service Dashboard. 
 The various tutorials may have pointed you to this at times, but lets fill in any gaps.
 
 1. First login to [Bluemix](https://console.ng.bluemix.net)
 1. Click the "Catalog" link on the top navigation bar
 
-![](/images/bluemix_catalog.PNG)
+![](/images/bluemix_ibc1.png)
 
 1. Find and click the "Blockchain" tile (you can use the navigation on the left to filter the list: Services > Network)
 
-![](/images/bluemix_catalog2.PNG)
+![](/images/bluemix_ibc2.png)
 
 1. Choose any space from the "Space:" dropdown (dealers choice)
 1. Leave the "App:" field as "Leave unbound" (unless you already have an application, but you probably don't yet)
@@ -208,19 +212,19 @@ The various tutorials may have pointed you to this at times, but lets fill in an
 1. Leave the "Selected Plan" as its default value
 1. Click the "CREATE" button
 
-![](/images/bluemix_catalog3.PNG)
+![](/images/bluemix_ibc3.png)
 
 1. If all goes well you should be on the manage screen for your new service. Click the "LAUNCH" button to see the dashboard for your network. 
 	- You should see a few peers listed in the first table
 	- from here you can monitor if your peers crash, if the chaincode containers are running, and view logs for all
 
-![](/images/bluemix_catalog4.PNG)
+![](/images/bluemix_ibc4.png)
 
 (Note if you find yourself on the Bluemix Dashboard and want to get back to this service screen just click the tile name "myblockchain" in the "Services" section)
 
 The network is all setup. You are now on your blockchain's dashboard.
 
-![](/images/bluemix_catalog5.PNG)
+![](/images/bluemix_ibc5.png)
 
 1. Network Tab - This is the 'home' of the service
 	- The top table contains the running peers and their status
@@ -247,3 +251,6 @@ The network is all setup. You are now on your blockchain's dashboard.
 	- Click the "Try it out!" button
 	- It should return with details about the blockchain network including things like its block height
 	
+
+***
+You are now ready. Go forth and code.
