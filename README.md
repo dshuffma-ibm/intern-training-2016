@@ -190,9 +190,10 @@ Try each demo in order.
 This is may look like the smallest section but it should take far longer then any other section. 
 Take your time here and ping us with questions/concerns/stuckness. 
 
-1. Run through [learn-chaincode](https://github.com/IBM-Blockchain/learn-chaincode) - this is a quick intro into how to write chaincode, protip build the chaincode locally before deploying
+1. Run through [learn-chaincode](https://github.com/IBM-Blockchain/learn-chaincode) - this is a quick intro into how to write chaincode
+	- protip build the chaincode locally before deploying
 1. Run through [marbles tutorial 1](https://github.com/IBM-Blockchain/marbles/blob/master/tutorial_part1.md) choose the **"Manual Network Setup"** and **"Run Marbles on Local Machine"** - its a very simple asset trading example
-1. Run through [marbles tutorial 2](https://github.com/IBM-Blockchain/marbles/blob/master/tutorial_part2.md) - still a very simple asset tradin example
+1. Run through [marbles tutorial 2](https://github.com/IBM-Blockchain/marbles/blob/master/tutorial_part2.md) - still a very simple asset trading example
 
 #Explore the Bluemix IBM Blockchain Service
 The last thing you should see before going off into the wild is the IBM Blockchain Service Dashboard. 
