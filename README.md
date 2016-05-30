@@ -2,6 +2,11 @@
 
 Hey there, lets first setup some IBM accounts and then get your laptop ready for development life.
 
+You will not have Wi-Fi on your laptop until we set that up later. 
+For the time being take an ethernet cord on your desk and plug into your laptop and one of the jacks behind your desk. 
+Only one of the jacks works and it should be the bottom left one. 
+[to do get a picture]
+
 ## 0. Signing up and Registering for Required Accounts
 
 This section will help you obtain the usernames and passwords you need for the various IBM services that are required for this training.
@@ -58,6 +63,7 @@ Although it will probably contain your operating system name in the parenthesis.
 * Download and install the [Node.js Binaries](https://nodejs.org/en/).
 ![Node Download Page](images/node_js_download.png)
 * After its installed test it by opening a command prompt on your operating system
+	- To open a command prompt on windows open the start menu and type `cmd` then hit enter
 
 * Type node -v.  Node should respond in kind:
 
@@ -66,7 +72,7 @@ Although it will probably contain your operating system name in the parenthesis.
 v4.4.5
 ```
 
-* If you get output very similar to the above, you have successfully installed Node.js and you can press `Ctrl-C` to exit the Node.js command prompt.
+* If you get output very similar to the above, you have successfully installed Node.js.
 * Close your command prompt.
 
 ## 1.3. Cloud Foundry CLI
@@ -126,9 +132,11 @@ It's not a problem if you do not get the option to choose an org or space, so lo
 ## 1.4 GoLang
 Chaincode is written in GoLang. You will be building Go code locally to make sure it compiles.  Therefore setup GoLang on your laptop.
 - Download and install GoLang https://golang.org/ 
+- Next [check your install](https://golang.org/doc/install#testing) (only follow the "Test your installation" section)
 
 ## 1.5 IDE
 You are going to need an editor to develop in.  It you do not have a favorite already then I'd recommend Visual Studio Code.
+For Node.js it is awesome, and for most other things its pretty decent. 
 - Download and install [Visual Studio Code](https://code.visualstudio.com/)
 - Get the Go extension by:
 	- open VSCode, press and hold "ctrl" + "p"
@@ -136,15 +144,15 @@ You are going to need an editor to develop in.  It you do not have a favorite al
 
 ##2.0 Test Email
 - Make sure your Lotus Notes works.  This is IBM's everything client.  You will use it for email + instant messaging.
-	- Send a test email to dshuffma@us.ibm.com with your cell phone number. It’s important to give me a way to reach you even if you are out.  It’s also important to send an email or txt message if there is any reason you cannot come into work today or must head home early.
+	- Send a test email to dshuffma@us.ibm.com with your name and cell phone number. I will only use your number when I cannot find you physically.  It’s also important to send David or Mihir an email or txt message if there is any reason you cannot come into work today or must head home early.
 
 
 ##2.1 Slack
 - We use Slack and IBM Sametime for instant messaging.  Sametime is already setup on your laptop. Go setup Slack on your laptop and join our team at https://etilabs.slack.com . 
 	- Join the channel #operatives
-	- Please log in at least one of these systems when you are at work
+	- You will need to login either Sametime or Slack whenever you are at work
 		- This will be our primary way to reach you.  Alternatively, we may just scream your name until you appear.
-	- This is a free Slack team, so do not send any code/files over it and try not to leak passwords or nuclear launch codes.
+	- This is a free Slack team, so do not send any code/files over it and try not to leak project passwords or nuclear launch codes.
 	
 ##3.0 Wi-Fi 
 - Our Wi-Fi is super complicated to setup. Make sure you are well rested and hydrated before continuing. 
@@ -158,6 +166,7 @@ You are going to need an editor to develop in.  It you do not have a favorite al
 	- Type Firefox, right click the Mozilla Firefox program
 	- Select "Run as administrator"
 2. Follow the official instructions here but use the Firefox browser we just opened. Good luck. https://w3-01.ibm.com/helpcentral/Content/View/d6a33202-c082-4f55-969d-fcb2f28ea3b5/automated_ibm_digital_certificate_setup_for_windows_7
+1. If it all went well, unplug the ethernet cord and place it ontop of the black cabinet near David
 
 ***
 #Learn
@@ -166,8 +175,6 @@ First up lets learn about blockchain basics.
 ##Links to reference:
 Below is several links that you should bookmark. 
 
-1. [Hyperledger Website](https://www.hyperledger.org/) - Linux Foundation's site
-1. [IBM Blockchain](https://www.ibm.com/blockchain/) - IBM's site
 1. [Glossary](https://github.com/hyperledger/fabric/blob/master/docs/glossary.md?cm_mc_uid=73007780379114621195867&cm_mc_sid_50200000=1464373552) - confused on a term, look it up here
 1. [Production Bluemix](https://console.ng.bluemix.net/)
 1. [Staging Bluemix](https://console.stage1.ng.bluemix.net/)
