@@ -4,8 +4,8 @@ Hey there, lets first setup some IBM accounts and then get your laptop ready for
 
 You will not have Wi-Fi on your laptop until we set that up later. 
 For the time being take an ethernet cord on your desk and plug into your laptop and one of the jacks behind your desk. 
-Only one of the jacks works and it should be the bottom left one. 
-[to do get a picture]
+Only one of the jacks works and it should be the top left one. 
+![port](/images/port.jpg)
 
 ## 0. Signing up and Registering for Required Accounts
 
