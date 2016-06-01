@@ -190,6 +190,10 @@ Read the links below to understand blockchain and your role.
 3. [Chaincode FAQ](https://github.com/hyperledger/fabric/blob/master/docs/FAQ/chaincode_FAQ.md)
 4. [Confidentiality FAQ](https://github.com/hyperledger/fabric/blob/master/docs/FAQ/confidentiality_FAQ.md)
 
+##Links to Watch:
+5. [Bitcoin Videos](https://www.khanacademy.org/economics-finance-domain/core-finance/money-and-banking/bitcoin/v/bitcoin-what-is-it) - extra, will likely be helpful but keep in mind that Bitcoin is different in many ways from IBM Blockchain
+1. [IBM Blockchain Bluemix Service](https://www.youtube.com/embed/kuMmFfRkbaE)
+
 ***
 #Demos
 Ok you are done with setup! Now lets get experience. 
