@@ -148,11 +148,11 @@ For Node.js it is awesome, and for most other things its pretty decent.
 
 
 ##2.1 Slack
-- We use Slack and IBM Sametime for instant messaging.  Sametime is already setup on your laptop. Go setup Slack on your laptop and join our team at https://etilabs.slack.com . 
+- We use Slack and IBM Sametime for instant messaging.  Sametime is already setup on your laptop. Go setup Slack on your laptop and join our team at https://ibm-blockchain.slack.com/ . 
+	- This is an enterprise slack team for IBM Blockchain, you must be added to whitewater before it will let you login. So try to login, and if you can't email me and we'll get you setup.
 	- Join the channel #operatives
 	- You will need to login either Sametime or Slack whenever you are at work
 		- This will be our primary way to reach you.  Alternatively, we may just scream your name until you appear.
-	- This is a free Slack team, so do not send any code/files over it and try not to leak project passwords or nuclear launch codes.
 	
 ##3.0 Wi-Fi 
 - Our Wi-Fi is super complicated to setup. Make sure you are well rested and hydrated before continuing. 
