@@ -1,4 +1,4 @@
-# Training 2015 Documentation
+# Training 2016 Documentation
 
 Hey there, lets first setup some IBM accounts and then get your laptop ready for development life.
 
